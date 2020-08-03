@@ -1,0 +1,23 @@
+/* WORK */
+.work {
+  font-size: larger;
+  text-align: center;
+}
+
+#link-DIME {
+  margin-left: 10px;
+
+  @mixin atLargest {
+    height: 1em;
+  }
+}
+
+#link-MEI {
+  margin: 0 3px 0 1px;
+
+  @mixin atLargest {
+    height: 1em;
+  }
+}
+
+/* END WORK */

@@ -1,0 +1,8 @@
+/* HEADER-FOOTER */
+.header-footer {
+  background-color: $backgroundDark;
+  color: $backgroundLight;
+  text-align: center;
+}
+
+/* END HEADER-FOOTER */

@@ -1,0 +1,24 @@
+/* PUBLICATIONS */
+.publications__no-bullets {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hr {
+  border: solid 0.01px;
+  /* width: 10%; */
+}
+
+.doc-link {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0.3em;
+  float: right;
+  color: green;
+
+  @mixin atLargest {
+    height: 1.3em;
+  }
+}
+
+/* END PUBLICATIONS */

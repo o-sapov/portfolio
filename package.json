@@ -1,0 +1,49 @@
+{
+  "name": "o-sapov_personal-site",
+  "version": "1.0.0",
+  "description": "My personal site.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-344/CV.git"
+  },
+  "keywords": [
+    "Oleksii",
+    "Sapov"
+  ],
+  "author": "Oleksii Sapov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-344/CV/issues"
+  },
+  "homepage": "https://github.com/m-344/CV#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-usemin": "^0.3.30",
+    "gulp-watch": "^5.0.1",
+    "postcss-hexrgba": "^2.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2"
+  }
+}

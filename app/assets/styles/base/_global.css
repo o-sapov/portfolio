@@ -1,0 +1,41 @@
+/* GLOBAL START */
+body {
+  font-family: "Times New Roman", serif;
+  text-align: left;
+  background-color: $backgroundLight;
+
+  @mixin atLargest {
+    font-size: 1.5em;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.indent {
+  margin-left: 15px;
+}
+
+.bottom-margin-1rem>li {
+  margin-bottom: 1rem;
+}
+
+.larger-line-height {
+  line-height: 1.6;
+}
+
+.sections {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray
+}
+
+/* GLOBAL END */

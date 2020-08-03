@@ -1,0 +1,51 @@
+/* FOOTER */
+.footer {
+  display: flex;
+
+  &__email-small-screen {
+    margin: 1rem;
+  }
+
+  &__email-medium-screen {
+    display: none;
+  }
+
+  &__logos {
+    width: 100%;
+    margin: 0.5rem;
+  }
+
+  &__logos-img {
+    height: 4rem;
+    padding: 0.5rem;
+  }
+
+  @mixin atLarge {
+    padding: 0 1 0 1rem;
+
+    &__email-small-screen {
+      display: none;
+    }
+
+    &__email-medium-screen {
+      display: inline-block;
+      text-align: left;
+    }
+
+    &__logos {
+      text-align: right;
+    }
+
+    &__logos-img {
+      margin-left: 0.5rem;
+    }
+  }
+
+  @mixin atLargest {
+    &__logos-img {
+      height: 5rem;
+    }
+  }
+}
+
+/* END FOOTER */

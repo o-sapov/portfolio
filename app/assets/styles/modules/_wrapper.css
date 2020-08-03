@@ -1,0 +1,23 @@
+/* WRAPPER */
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  max-width: 1280px;
+  background-color: $backgroundBody;
+
+  @mixin atMedium {
+    width: 50%;
+  }
+
+  @mixin atLarge {
+    width: 50%;
+  }
+
+  &::before {
+    display: table;
+    content: " ";
+  }
+}
+
+/* END WRAPPER */
