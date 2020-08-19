@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-#link-DIME {
+.work__links {
   margin-left: 10px;
 
   @mixin atLargest {
