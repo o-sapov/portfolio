@@ -4,8 +4,8 @@ body {
   text-align: left;
   background-color: $backgroundLight;
 
-  @mixin atLargest {
-    font-size: 1.5em;
+  @mixin atLarge {
+    font-size: 1.1em;
   }
 }
 

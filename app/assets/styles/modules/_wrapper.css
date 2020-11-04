@@ -7,11 +7,14 @@
   background-color: $backgroundBody;
 
   @mixin atMedium {
-    width: 50%;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    width: 40%;
   }
 
   @mixin atLarge {
-    width: 50%;
+    width: 45%;
   }
 
   &::before {
