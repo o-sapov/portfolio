@@ -38,4 +38,28 @@ div {
   background-color: gray
 }
 
+a:link {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: 898b8a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* GLOBAL END */
