@@ -28,7 +28,7 @@ var gulp = require('gulp'),
     var pathsToCopy = [
       './app/**/*',
       '!./app/index.html',
-      '!./app/assets/images/**',
+      '!./app/html',
       '!./app/assets/styles/**',
       '!./app/assets/scripts/**',
       '!./app/temp',
@@ -45,8 +45,11 @@ var gulp = require('gulp'),
       .pipe(gulp.dest("./docs/assets/images"));
   })
 
-  gulp.task('usemin', function() {
-    return gulp.src("./app/index.html")
+
+
+// , "./app/html/index_en.html"
+  gulp.task('usemin_index', function() {
+    return gulp.src("./app/index.html" )
       .pipe(usemin({
         css: [function() {
           return rev()
@@ -62,7 +65,24 @@ var gulp = require('gulp'),
       .pipe(gulp.dest("./docs"))
   })
 
+  gulp.task('usemin_index_en', function() {
+    return gulp.src("./app/html/index_en.html" )
+      .pipe(usemin({
+        css: [function() {
+          return rev()
+        }, function() {
+          return cssnano()
+        }],
+        js: [function() {
+          return rev()
+        }, function() {
+          return uglify()
+        }]
+      }))
+      .pipe(gulp.dest("./docs/html"))
+  })
 
 
 
+gulp.task('usemin', gulp.series('usemin_index', 'usemin_index_en'));
   gulp.task('build', gulp.series('deleteDistFolder',  'copyGeneralFiles', 'styles', 'optimizeImages', 'usemin'));

@@ -13,6 +13,7 @@ gulp.task('watch', function() {
   });
 
   watch('./app/index.html').on("change", reload);
+  watch('./app/html/index_en.html').on("change", reload);
   watch('./app/assets/styles/**/*.css', gulp.series('manageCSS'));
 
 });

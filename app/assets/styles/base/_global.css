@@ -4,8 +4,8 @@ body {
   text-align: left;
   background-color: $backgroundLight;
 
-  @mixin atLargest {
-    font-size: 1.5em;
+  @mixin atLarge {
+    font-size: 1.1em;
   }
 }
 
@@ -36,6 +36,30 @@ div {
   border-width: 0;
   color: gray;
   background-color: gray
+}
+
+a:link {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: 898b8a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 /* GLOBAL END */

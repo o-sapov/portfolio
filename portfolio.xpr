@@ -120,7 +120,8 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="CV.xpr">
+    <projectTree name="portfolio.xpr">
+        <folder path="../../notes/"/>
         <folder path="."/>
     </projectTree>
 </project>

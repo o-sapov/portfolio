@@ -1,6 +1,6 @@
 /* WORK */
 .work {
-  font-size: larger;
+  /* font-size: larger; */
   text-align: center;
 }
 
@@ -10,6 +10,10 @@
   @mixin atLargest {
     height: 1em;
   }
+}
+
+#work-title {
+  font-size: x-large;
 }
 
 #link-MEI {
