@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/m-344/CV#readme",
   "dependencies": {
-    "bootstrap-icons": "^1.0.0-alpha5",
+    "bootstrap-icons": "^1.1.0",
     "jquery": "^3.5.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.26.13",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-cssnano": "^2.1.3",
