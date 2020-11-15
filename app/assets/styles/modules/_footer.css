@@ -11,7 +11,7 @@
   }
 
   &__logos {
-    width: 100%;
+    width: 90%;
     margin: 0.5rem;
   }
 
@@ -41,11 +41,11 @@
     }
   }
 
-  @mixin atLargest {
+  /* @mixin atLargest {
     &__logos-img {
       height: 5rem;
     }
-  }
+  } */
 }
 
 /* END FOOTER */

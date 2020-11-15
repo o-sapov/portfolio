@@ -8,6 +8,11 @@ a {
   display: inline-block;
 }
 
+.download-or-link {
+  float: right;
+  height: 2em;
+}
+
 .scale-btn:hover {
   transform: scale(1.1);
 }
